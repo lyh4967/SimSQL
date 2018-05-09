@@ -83,6 +83,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="QueType.h" />
+    <ClInclude Include="SubFunc.h" />
     <ClInclude Include="Table.h" />
   </ItemGroup>
   <ItemGroup>
