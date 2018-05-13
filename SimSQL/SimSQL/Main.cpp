@@ -1,19 +1,12 @@
-#include <iostream>
-#include <string>
 #include "SubFunc.h"
 #include "Table.h"
+#include "myLib.h"
 using namespace std;
 
-enum DML{INSERT,DELETE,UPDATE,SELECT};
-QueType<string> StringSplit(string strTarget, string strTok); //string.split
 void SQLProcessor(string s,Table& table);
 
-//테이블이름으로 output파일 생성하자
-ofstream output("data.bin", ios::out | ios::binary);
 int main(){
 
-	
-	//ifstream input("data.bin", ios::in | ios::binary);
 	ifstream commandInput("commandSQL.txt");
 	Table table("test",3,"학번","이름","학교");//테이블(테이블이름, 필드길이,필드명)
 	cout << "Hello customer, This is SimSQL" << endl;
@@ -31,11 +24,6 @@ int main(){
 	return 0;
 }
 void SQLProcessor(string s, Table& table){
-	/*vector<string> tokens;
-	istringstream iss(s);
-	copy(istream_iterator<string>(iss),
-	istream_iterator<string>(),
-	back_inserter<vector<string> >(tokens));*/
 
 	QueType<string> commandQ(StringSplit(s, " "));//공백을 기준으로 구문 분리
 	string command;

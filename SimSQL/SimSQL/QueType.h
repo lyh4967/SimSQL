@@ -1,4 +1,5 @@
 // Header file for Queue ADT. 
+#pragma once
 class FullQueue
 {};  
 

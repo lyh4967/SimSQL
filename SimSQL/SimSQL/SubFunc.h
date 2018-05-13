@@ -1,6 +1,5 @@
 #pragma once
-#include "QueType.h"
-#include <string>
+#include "myLib.h"
 using namespace std;
 QueType<string> StringSplit(string strTarget, string strTok)
 {

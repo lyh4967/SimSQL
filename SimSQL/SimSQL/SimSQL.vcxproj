@@ -80,9 +80,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Schema.cpp" />
+    <ClCompile Include="SQLProcessor.cpp" />
+    <ClCompile Include="Table.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="QueType.h" />
+    <ClInclude Include="Schema.h" />
+    <ClInclude Include="SQLProcessor.h" />
+    <ClInclude Include="myLib.h" />
     <ClInclude Include="SubFunc.h" />
     <ClInclude Include="Table.h" />
   </ItemGroup>
