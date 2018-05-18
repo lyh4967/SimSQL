@@ -4,6 +4,7 @@
 #VC
 *.VC.opendb
 *.opendb
+*.VC.db
 
 # User-specific files
 *.suo
