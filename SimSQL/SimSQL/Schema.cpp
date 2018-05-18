@@ -8,7 +8,7 @@ Schema::~Schema(){
 
 }
 
-void Schema::Create() {
+void Schema::Create_tbl() {
 
 }
 

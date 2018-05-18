@@ -1,5 +1,6 @@
 // Header file for Queue ADT. 
-#pragma once
+#ifndef QUETYPE_H
+#define QUETYPE_H
 class FullQueue
 {};  
 
@@ -197,3 +198,4 @@ void QueType<ItemType>::ReplaceItem(ItemType oldItem, ItemType newItem)
 		}
 	}
 }
+#endif
