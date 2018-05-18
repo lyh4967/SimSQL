@@ -9,8 +9,8 @@ private:
 public:
 	Schema();//constructor
 	~Schema();//destructor
-	void Create_tbl();
-	void Drop_tbl();
-	void Alter_tbl();
+	void Create();
+	void Drop();
+	void Alter();
 };
 

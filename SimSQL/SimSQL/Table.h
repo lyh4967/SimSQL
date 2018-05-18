@@ -2,19 +2,6 @@
 #include "SubFunc.h"
 #include "myLib.h"
 using namespace std;
-
-//struct Data {
-//	enum { is_int, is_float, is_bool, is_char, is_string } type;
-//	union {
-//		int ival;
-//		float fval;
-//		bool bval;
-//		char cval;
-//		string sval;
-//	} val;
-//};
-
-
 struct Tupl{
 	string infos[3];
 	Tupl* next;
